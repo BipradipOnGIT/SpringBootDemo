@@ -5,6 +5,9 @@ phases:
     commands:
       - mvn clean
       - mvn install
+  install:
+    runtime-versions:
+      java: corretto8
 artifacts:
   files:
     - 'Dockerfile'
